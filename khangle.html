@@ -92,7 +92,7 @@
       outline: none;
     }
 
-    /* Set a style for the submit/send button */
+    /* Set a style for the submit/đánh giá button */
     .form-container .btn {
       background-color: #4CAF50;
       color: white;
@@ -129,8 +129,8 @@
       <label for="msg"><b>Message</b></label>
       <textarea placeholder="Type message.." name="msg" required></textarea>
 
-      <button type="submit" class="btn">Send</button>
-      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      <button type="submit" class="btn">đánh giá</button>
+      <button type="button" class="btn cancel" onclick="hủy đánh giáForm()">hủy đánh giá</button>
     </form>
   </div>
 
@@ -139,7 +139,7 @@
       document.getElementById("myForm").style.display = "block";
     }
 
-    function closeForm() {
+    function hủy đánh giáForm() {
       document.getElementById("myForm").style.display = "none";
     }
   </script>
